@@ -77,5 +77,5 @@ Deploy your app. Vercel will handle continuous deployment on each push.
 
 ## Usage
 This app is deployed on vercel. We can access this by using the below url
-https://my-nextjs-app-cyan.vercel.app/posts
+https://myblog-gamma-dun-14.vercel.app/
 
