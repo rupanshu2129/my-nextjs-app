@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Next.js Project
 
-## Getting Started
+This project is a web application built with **Next.js**, deployed on **Vercel**, and uses **Supabase** as the backend service for authentication, database management (PostgreSQL), and storage.
 
-First, run the development server:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Running the Project Locally](#running-the-project-locally)
+- [Deployment](#deployment)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Server-Side Rendering (SSR)** and **Static Generation (SSG)** with Next.js.
+- **Supabase Integration**: Authentication, real-time data, and PostgreSQL database for storing posts.
+- **Vercel Deployment**: Instantaneous deployment and serverless functionality via Vercel.
+- **Post Management**: Posts can be created, displayed, and stored securely in PostgreSQL.
+- **Authentication**: User sign-up and login functionality with Supabase.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resource:
+- **Next.js**: A React framework for building optimized web applications with built-in SSR and SSG.
+- **Supabase**: Provides database (PostgreSQL), authentication, and real-time subscriptions.
+- **PostgreSQL**: Relational database managed via Supabase.
+- **Vercel**: For seamless deployment and hosting of the Next.js application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+1. Clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone git@github.com:rupanshu2129/my-nextjs-app.git
+   cd my-nextjs-app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install the dependencies
+
+    ```bash
+    npm install
+
+## Environment Variables
+
+Create a .env.local file in the root directory and add the following environment variables to configure Supabase and other services:
+
+DATABASE_URL=<your-postgres-url>
+
+DATABASE_URL: PostgreSQL database URL for server-side operations.
+
+## Running the Project Locally
+Make sure all the required environment variables are set in .env.local.
+
+Run the development server:
+
+   ```bash
+    npm run dev
+
+Open http://localhost:3000 to view the app in your browser.
+
+The app will reload automatically if you make edits.
+
+### Deployment
+This project is deployed to Vercel.
+
+To deploy your own instance:
+
+Push your code to a GitHub repository.
+Go to Vercel, create an account, and link your repository.
+Set up the necessary environment variables in the Vercel dashboard.
+Deploy your app. Vercel will handle continuous deployment on each push.
