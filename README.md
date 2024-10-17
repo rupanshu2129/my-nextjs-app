@@ -59,12 +59,12 @@ Run the development server:
 
    ```bash
     npm run dev
-
+   ```
 Open http://localhost:3000 to view the app in your browser.
 
 The app will reload automatically if you make edits.
 
-### Deployment
+## Deployment
 This project is deployed to Vercel.
 
 To deploy your own instance:
