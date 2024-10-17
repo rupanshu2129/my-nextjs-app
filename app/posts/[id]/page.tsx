@@ -1,5 +1,4 @@
 import prisma from '../../../lib/prisma';
-import Link from 'next/link';
 // Dynamic Post Page Component
 export default async function PostPage({ params }: { params: { id: string } }) {
   // Fetch the post by ID from the database using Prisma

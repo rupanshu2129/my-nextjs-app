@@ -17,7 +17,7 @@ export default function RootLayout({
         {/* Header */}
         <header className="bg-blue-600 text-white py-4">
           <div className="container mx-auto max-w-4xl flex justify-between items-center px-4">
-            <h1 className="text-2xl font-bold">Rupanshu's Blog</h1>
+            <h1 className="text-2xl font-bold">My Blog</h1>
             <nav>
               <Link href="/" className="text-white hover:underline mx-2">
                 Home
