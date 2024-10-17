@@ -9,6 +9,7 @@ This project is a web application built with **Next.js**, deployed on **Vercel**
 - [Environment Variables](#environment-variables)
 - [Running the Project Locally](#running-the-project-locally)
 - [Deployment](#deployment)
+- [Usage](#usage)
 
 ---
 
@@ -73,3 +74,8 @@ Push your code to a GitHub repository.
 Go to Vercel, create an account, and link your repository.
 Set up the necessary environment variables in the Vercel dashboard.
 Deploy your app. Vercel will handle continuous deployment on each push.
+
+## Usage
+This app is deployed on vercel. We can access this by using the below url
+https://my-nextjs-app-cyan.vercel.app/posts
+
